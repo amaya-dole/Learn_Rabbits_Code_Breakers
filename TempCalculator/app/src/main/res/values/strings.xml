@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Temp Calculator</string>
+    <string name="temp">Enter Temperature</string>
+    <string name="Celcius">Celcius</string>
+    <string name="Fahrenhite">Fahrenhite</string>
+    <string name="calcButton">CALCULATE</string>
+    <string name="imgdesc">Temp Calculator</string>
+</resources>

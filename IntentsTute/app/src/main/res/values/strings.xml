@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IntentsTute</string>
+    <string name="num1Input">Number 1</string>
+    <string name="num2Input">Number 2</string>
+    <string name="doneButton">OK</string>
+    <string name="inputN1" />
+    <string name="inputN2" />
+    <string name="answer_view" />
+    <string name="add">+</string>
+    <string name="substract">-</string>
+    <string name="multiply">*</string>
+    <string name="devid">/</string>
+</resources>
