@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                tools:ignore="MissingConstraints">
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:columnCount="8"
+            android:rowCount="10"
+            android:rowOrderPreserved="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="65dp"
+                android:background="@color/teal_700"
+                android:gravity="center_horizontal"
+                android:hint="@string/dt"
+                android:paddingVertical="14dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="65dp"
+                android:background="@color/teal_200"
+                android:gravity="center_horizontal"
+                android:hint="@string/monday"
+                android:paddingVertical="14dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="65dp"
+                android:background="@color/teal_700"
+                android:gravity="center_horizontal"
+                android:hint="@string/tuesday"
+                android:paddingVertical="14dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="65dp"
+                android:background="@color/teal_200"
+                android:gravity="center_horizontal"
+                android:hint="@string/wednesday"
+                android:paddingVertical="14dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="65dp"
+                android:background="@color/teal_700"
+                android:gravity="center_horizontal"
+                android:hint="@string/thursday"
+                android:paddingVertical="14dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="65dp"
+                android:background="@color/teal_200"
+                android:gravity="center_horizontal"
+                android:hint="@string/friday"
+                android:paddingVertical="14dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="65dp"
+                android:background="@color/teal_700"
+                android:gravity="center_horizontal"
+                android:hint="@string/saturday"
+                android:paddingVertical="14dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="65dp"
+                android:background="@color/teal_200"
+                android:gravity="center_horizontal"
+                android:hint="@string/sunday"
+                android:paddingVertical="14dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:hint="@string/am8"
+                android:paddingVertical="14dp"
+                android:text="8:00"
+                android:textAlignment="center"
+                android:textColor="#9C27B0" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:hint="@string/am9"
+                android:paddingVertical="14dp"
+                android:text="@string/am9"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:hint="@string/am10"
+                android:paddingVertical="14dp"
+                android:text="@string/am10"
+                android:textAlignment="center"
+                android:textColor="#E91E63"
+                android:textColorHighlight="#E91E63" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:hint="@string/am11"
+                android:paddingVertical="14dp"
+                android:text="@string/am11"
+                android:textAlignment="center"
+                android:textColor="#2196F3" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:hint="@string/am12"
+                android:paddingVertical="14dp"
+                android:text="@string/am12"
+                android:textAlignment="center"
+                android:textColor="#FFC107" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:hint="@string/pm13"
+                android:paddingVertical="14dp"
+                android:text="@string/pm13"
+                android:textAlignment="center"
+                android:textColor="#673AB7" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:hint="@string/pm14"
+                android:paddingVertical="14dp"
+                android:text="@string/pm14"
+                android:textAlignment="center"
+                android:textColor="#009688" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:hint="@string/pm15"
+                android:paddingVertical="14dp"
+                android:text="@string/pm15"
+                android:textAlignment="center"
+                android:textColor="#F44336" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:hint="@string/pm16"
+                android:paddingVertical="14dp"
+                android:text="@string/pm16"
+                android:textAlignment="center"
+                android:textColor="#00BCD4" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:hint="@string/pm17"
+                android:paddingVertical="14dp"
+                android:text="@string/pm17"
+                android:textAlignment="center"
+                android:textColor="#673AB7" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:hint="@string/pm18"
+                android:paddingVertical="14dp"
+                android:text="@string/pm18"
+                android:textAlignment="center"
+                android:textColor="#FF5722" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:hint="@string/pm19"
+                android:paddingVertical="14dp"
+                android:text="@string/pm19"
+                android:textAlignment="center"
+                android:textColor="#8BC34A" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:hint="@string/pm20"
+                android:paddingVertical="14dp"
+                android:text="@string/pm20"
+                android:textAlignment="center"
+                android:textColor="#03A9F4" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border_white"
+                android:gravity="center_horizontal"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:onClick="openNext"/>
+
+        </GridLayout>
+        </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

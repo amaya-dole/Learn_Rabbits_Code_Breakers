@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7500BCD4"
+    tools:context=".Main_ui">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:rowOrderPreserved="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="160dp"
+            android:layout_height="161dp"
+            android:layout_marginTop="160dp"
+            android:onClick="openCount"
+            app:srcCompat="@drawable/image2" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="160dp"
+            android:layout_height="161dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="160dp"
+            app:srcCompat="@drawable/image4" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="160dp"
+            android:layout_height="161dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/image5" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="160dp"
+            android:layout_height="161dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/image6" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="232dp"
+        android:columnCount="4"
+        android:paddingHorizontal="40dp"
+        android:rowCount="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/time"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginRight="30dp"
+            android:onClick="openTime"
+            app:srcCompat="@drawable/ic_baseline_timer_24"
+            tools:ignore="VectorDrawableCompat"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="549dp" />
+
+        <ImageView
+            android:id="@+id/dic"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginRight="30dp"
+            app:srcCompat="@drawable/ic_baseline_font_download_24"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="542dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageView
+            android:id="@+id/calc"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginRight="30dp"
+            app:srcCompat="@drawable/ic_baseline_calculate_24"
+            tools:layout_editor_absoluteX="193dp"
+            tools:layout_editor_absoluteY="549dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageView
+            android:id="@+id/contact"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginRight="30dp"
+            app:srcCompat="@drawable/ic_baseline_perm_contact_calendar_24"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="549dp"
+            tools:ignore="VectorDrawableCompat" />
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
