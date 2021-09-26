@@ -12,7 +12,6 @@ public class Calculation2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculation2);
-        getSupportActionBar().hide();
     }
     public void openPrev(View view){
         Intent i = new Intent(this, Calculation1.class);

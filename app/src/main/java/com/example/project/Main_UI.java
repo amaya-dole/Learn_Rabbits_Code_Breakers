@@ -1,10 +1,11 @@
 package com.example.project;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 
 public class Main_UI extends AppCompatActivity {
 
@@ -12,10 +13,6 @@ public class Main_UI extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_ui);
-
-        getSupportActionBar().hide();
-
-
     }
     public void openCount(View view){
         Intent intent1 = new Intent(Main_UI.this, MathsMain.class);
@@ -35,6 +32,11 @@ public class Main_UI extends AppCompatActivity {
     public void openMulti(View view){
         Intent intent1 = new Intent(Main_UI.this, addFactors.class);
 
+        startActivity(intent1);
+    }
+
+    public void openDictionary(View view) {
+        Intent intent1 = new Intent(Main_UI.this, Dictionary.class);
         startActivity(intent1);
     }
 

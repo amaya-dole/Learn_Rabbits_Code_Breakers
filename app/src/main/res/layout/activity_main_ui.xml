@@ -85,6 +85,7 @@
             android:layout_height="47dp"
             android:layout_marginTop="560dp"
             android:layout_marginRight="30dp"
+            android:onClick="openDictionary"
             app:srcCompat="@drawable/ic_baseline_font_download_24"
             tools:layout_editor_absoluteX="114dp"
             tools:layout_editor_absoluteY="542dp"

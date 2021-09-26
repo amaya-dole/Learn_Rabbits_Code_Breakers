@@ -25,7 +25,6 @@ public class coloursPg extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_colours_pg);
-        getSupportActionBar().hide();
 
         viewPager2 = findViewById(R.id.viewPager2);
         imageList = new ArrayList<>();

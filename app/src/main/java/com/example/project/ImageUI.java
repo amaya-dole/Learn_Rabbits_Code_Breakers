@@ -11,8 +11,6 @@ public class ImageUI extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        getSupportActionBar().hide();
         setContentView(R.layout.imageui);
 
         Intent intentHome1 = getIntent();
