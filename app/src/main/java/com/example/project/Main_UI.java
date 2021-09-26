@@ -27,4 +27,15 @@ public class Main_UI extends AppCompatActivity {
 
         startActivity(intent1);
     }
+    public void openAnimals(View view){
+        Intent intent1 = new Intent(Main_UI.this, ImageUI.class);
+
+        startActivity(intent1);
+    }
+    public void openMulti(View view){
+        Intent intent1 = new Intent(Main_UI.this, addFactors.class);
+
+        startActivity(intent1);
+    }
+
 }

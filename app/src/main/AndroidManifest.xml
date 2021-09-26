@@ -9,6 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Project">
+        <activity
+            android:name=".addFactors"
+            android:exported="true" />
+
+        <activity
+            android:name=".ToMemorize"
+            android:exported="true" />
+        <activity
+            android:name=".coloursPg"
+            android:exported="true" />
+        <activity
+            android:name=".animalsPg"
+            android:exported="true" />
+        <activity
+            android:name=".ImageUI"
+            android:exported="true"/>
+
         <activity android:name=".Calculation1"></activity>
         <activity android:name=".Calculation2" />
         <activity android:name=".Numbers2" />
@@ -22,13 +39,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".DisplayData" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".MainActivity"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2FB1C3"
+    tools:context=".ImageUI">
+
+    <ImageView
+        android:id="@+id/img_mlt"
+        android:layout_width="172dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/img_ani"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ani" />
+
+    <ImageView
+        android:id="@+id/img_cal"
+        android:layout_width="169dp"
+        android:layout_height="145dp"
+        android:contentDescription="@string/img_col"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_mlt"
+        app:srcCompat="@drawable/images"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_mlt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:onClick="openAnimals"
+        android:text="@string/btn_ani"
+        android:textColor="#633220"
+        android:textSize="24sp"
+        app:backgroundTint="#8BC34A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_mlt"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openColors"
+        android:text="@string/btn_clr"
+        android:textColor="#633220"
+        android:textSize="24sp"
+        app:backgroundTint="#8BC34A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_cal" />
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="231dp"
+        android:layout_height="63dp"
+        android:onClick="openHome"
+        android:text="@string/btn_home"
+        android:textColor="#009688"
+        android:textSize="34sp"
+        app:backgroundTint="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cal"
+        app:layout_constraintVertical_bias="0.408"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

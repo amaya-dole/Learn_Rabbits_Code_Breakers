@@ -24,7 +24,8 @@
             android:layout_height="161dp"
             android:layout_marginTop="130dp"
             android:onClick="openCount"
-            app:srcCompat="@drawable/image2" />
+            app:srcCompat="@drawable/image2"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageView
             android:id="@+id/imageView9"
@@ -47,7 +48,9 @@
             android:layout_height="161dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
-            app:srcCompat="@drawable/image6" />
+            android:onClick="openAnimals"
+            app:srcCompat="@drawable/image6"
+            tools:ignore="SpeakableTextPresentCheck" />
 
     </GridLayout>
 
@@ -72,7 +75,7 @@
             android:layout_marginRight="30dp"
             android:onClick="openTime"
             app:srcCompat="@drawable/ic_baseline_timer_24"
-            tools:ignore="VectorDrawableCompat"
+            tools:ignore="VectorDrawableCompat,TouchTargetSizeCheck,SpeakableTextPresentCheck"
             tools:layout_editor_absoluteX="48dp"
             tools:layout_editor_absoluteY="549dp" />
 
@@ -93,10 +96,11 @@
             android:layout_height="47dp"
             android:layout_marginTop="560dp"
             android:layout_marginRight="30dp"
+            android:onClick="openMulti"
             app:srcCompat="@drawable/ic_baseline_calculate_24"
+            tools:ignore="VectorDrawableCompat,TouchTargetSizeCheck"
             tools:layout_editor_absoluteX="193dp"
-            tools:layout_editor_absoluteY="549dp"
-            tools:ignore="VectorDrawableCompat" />
+            tools:layout_editor_absoluteY="549dp" />
 
         <ImageView
             android:id="@+id/contact"
