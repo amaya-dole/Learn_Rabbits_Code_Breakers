@@ -6,15 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Calculation1 extends AppCompatActivity {
+public class Calculation2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculation1);
+        setContentView(R.layout.activity_calculation2);
+        getSupportActionBar().hide();
     }
     public void openPrev(View view){
-        Intent in = new Intent(this, Calculation2.class);
-        startActivity(in);
+        Intent i = new Intent(this, Calculation1.class);
+        startActivity(i);
     }
 }
